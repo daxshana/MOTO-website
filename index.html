@@ -21,7 +21,8 @@
 </head>
 
 <body>
-  
+  <div id="notification" class="notification"></div>
+
   <!-- header section start -->
 
   <header class="header_section">
@@ -41,8 +42,8 @@
             <div class="overlay-content">
               <a href="index.html">Home</a>
               <a href="about.html">About</a>
-              <a href="book.html">Book Table</a>
-              <a href="testimonial.html">Testimonial</a>
+              <a href="product.html">Products</a>
+              <a href="contactus.html">Contact Us</a>
             </div>
           </div>
           </div>
@@ -75,47 +76,66 @@
 
   
   <!-- About Section -->
-<section class="about_section layout_padding-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="img-box">
-          <img src="images/6584593863cf4357b15fc176c8f2b9ed.jpg" alt="Discover the Taste of Homemade Food">
+  <section class="about-section py-5">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+                <div class="image-container">
+                    <div class="image-wrapper">
+                        <img src="images/6584593863cf4357b15fc176c8f2b9ed.jpg" alt="Experience the Joy of Cycling" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="content-wrapper">
+                    <h2 class="title mb-4">Ride with Us</h2>
+                    <p class="lead mb-5">
+                        Welcome to <span class="brand-text">CyclePath</span> – where adventure meets excellence. We craft premium bikes for those who seek the extraordinary.
+                    </p>
+                    
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <div class="emoji-icon">🏆</div>
+                                <h3>Premium Quality</h3>
+                                <p>Precision-engineered frames built to last</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <div class="emoji-icon">🌱</div>
+                                <h3>Eco-Friendly</h3>
+                                <p>Sustainable rides for a greener future</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <div class="emoji-icon">⚡</div>
+                                <h3>Performance</h3>
+                                <p>Superior speed and handling</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <div class="emoji-icon">🎨</div>
+                                <h3>Custom Design</h3>
+                                <p>Personalized to your style</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <a href="#" class="cta-button">Start Your Journey</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="detail-box">
-          <div class="heading_container">
-            <h2>Ride with Us</h2>
-          </div>
-          <p>
-            Welcome to <strong>CyclePath</strong> – your ultimate destination for all things cycling! Whether you're chasing adventure, a healthier lifestyle, or just the thrill of the ride, we've got the perfect bike for you. Let’s pedal towards a brighter, greener future together!
-          </p>
-          <h4>Why Choose Us?</h4>
-          <ul>
-            <li>🏠 Unmatched Quality: Crafted with precision, our bikes are built to last.</li>
-            <li>🌍 Eco-Friendly Rides: Embrace sustainability with every pedal.</li>
-            <li>✨ Stylish Designs: Turn heads while you cruise in style.</li>
-          </ul>
-          <h4>The CyclePath Edge:</h4>
-          <ul>
-            <li>⚙️ Lightweight frames that promise comfort and speed.</li>
-            <li>🔧 Smooth gear transitions for a flawless ride.</li>
-            <li>🛑 Superior braking systems for your safety.</li>
-          </ul>
-          <h4>Specs That Impress:</h4>
-          <ul>
-            <li>🎨 Customizable frame sizes and vibrant colors.</li>
-            <li>🔋 Accessory-ready for lights, carriers, and more.</li>
-            <li>💪 Made with premium aluminum and carbon fiber.</li>
-          </ul>
-          <a href="#" class="btn btn-success mt-3">Learn More & Start Riding</a>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
-<!-- End of About Section -->
+
 
 <!-- Product Showcase Section -->
 <section class="product_showcase_section layout_padding">
@@ -183,7 +203,7 @@
 </section>
 <!-- End of Product Showcase Section -->
 
-<!-- Call-to-Action Section -->
+<!-- Call-to-Action Section
 <section class="cta_section layout_padding">
   <video autoplay muted loop class="cta_video">
     <source src="images/186364-877727696_tiny.mp4" type="video/mp4">
@@ -194,77 +214,41 @@
       <h2>Find Your Perfect Bicycle Today!</h2>
       <p>Explore our wide range of high-quality bicycles for every terrain and lifestyle. Don’t wait—take the ride of your life!</p>
       <div>
-        <a href="shop.html" class="cta-btn btn-primary btn-lg">Shop Now</a>
-        <a href="tel:+1234567890" class="cta-btn btn-success btn-lg">Call Us</a>
+        <a href="shop.html" class="cta_button">Shop Now</a>
+        <a href="tel:+1234567890" class="cta_button">Call Us</a>
       </div>
     </div>
   </div>
+</section> -->
+
+<!-- Call Us Section -->
+<section class="call-us-section position-relative">
+  <!-- Video Background -->
+  <div class="video-background">
+      <video autoplay muted loop playsinline>
+          <source src="images/186364-877727696_tiny.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+  </div>
+
+  <!-- Content Overlay -->
+  <div class="content-overlay">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                  <div class="call-us-content">
+                      <h2 class="mb-3">Find Your Perfect Bicycle Today!</h2>
+                      <p class="lead mb-4">Explore our wide range of high-quality bicycles for every terrain and lifestyle. Don't wait—take the ride of your life!</p>
+                      <a href="tel:+1234567890" class="call-button">
+                          <span class="icon">📞</span>
+                          Call Us Now
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
-
-<!-- CSS -->
-<style>
-.cta_section {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-  color: white;
-}
-
-.cta_video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1; /* Ensure video is below overlay */
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-  z-index: 2; /* Ensure overlay is above video */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-h2, p {
-  margin: 0;
-  z-index: 3; /* Ensure text is above the overlay */
-}
-
-.product-btn {
-  margin: 10px 10px; /* Spacing between buttons */
-  z-index: 3; /* Ensure buttons are above the overlay */
-  display: inline-block !important; /* Force buttons to display */
-  position: relative; /* Ensure buttons are positioned */
-  color: white;
-  background-color: green;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.cta-btn {
-  margin: 10px 10px; /* Spacing between buttons */
-  z-index: 3; /* Ensure buttons are above the overlay */
-  display: inline-block !important; /* Force buttons to display */
-  position: relative; /* Ensure buttons are positioned */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-}
-</style>
 
 
 
@@ -316,40 +300,29 @@ h2, p {
     <div class="heading_container heading_center">
       <h2>Contact Us</h2>
     </div> 
-    <div class="">
+    <div>
       <div class="row">
         <div class="col-md-7 mx-auto">
-          <form action="">
+          <form id="contactForm">
             <div class="contact_form-container">
               <div class="row">
                 <div class="col-sm-6">
-                  <input type="text" placeholder="Full Name">
+                  <input type="text" name="name" placeholder="Full Name" required />
                 </div>
                 <div class="col-sm-6">
-                  <input type="text" placeholder="Email">
+                  <input type="email" name="email" placeholder="Email" required />
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-6">
-                  <input type="number" placeholder="Phone Number" />
+                  <input type="number" name="phone" placeholder="Phone Number" />
                 </div>
-                <!-- <div class="col-sm-6">
-                  <input type="number" placeholder="Number of People" />
-                </div>  -->
               </div>
-              <div class="row">
-                <!-- <div class="col-sm-6">
-                  <input type="date" placeholder="Select date" />
-                </div> -->
-                <!-- <div class="col-sm-6">
-                  <input type="time" placeholder="Select Time" />
-                </div> -->
-              </div>
-              <div class="">
-                <input type="text" placeholder="Additional Note" class="message_input" />
+              <div>
+                <input type="text" name="message" placeholder="Additional Note" class="message_input" required />
               </div>
               <div class="btn_box">
-                <button type="submit">Send</button>
+                <button type="button" id="sendButton">Send</button>
               </div>
             </div>
           </form>
@@ -358,7 +331,6 @@ h2, p {
     </div>
   </div>
 </section>
-<!-- End of contact section -->
 
 <!-- Testimonial section -->
 <section class="client_section layout_padding">
@@ -578,7 +550,42 @@ h2, p {
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   
-  
+  <!-- EmailJS Integration -->
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function() {
+    emailjs.init({
+      publicKey: "28Z-nOl3vXj8RDA7e", // Replace with your EmailJS public key
+    });
+  })();
+
+  // Form Submission Handling
+  document.getElementById("sendButton").addEventListener("click", function() {
+    const contactForm = document.getElementById("contactForm");
+    const formData = new FormData(contactForm);
+
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      phone: formData.get("phone"),
+      message: formData.get("message"),
+    };
+
+    emailjs.send("service_c54wrbd", "template_i7sfv1j", data)
+      .then((response) => {
+        alert("Message Sent Successfully!");
+        contactForm.reset(); // Clear the form
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        alert("Failed to send message. Please try again.");
+      });
+  });
+</script>
+
+
 
 
 </body>
